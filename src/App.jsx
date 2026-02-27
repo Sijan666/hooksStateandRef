@@ -3,13 +3,12 @@ import { useRef, useState } from "react"
 
 function App() {
 
-
+  // use state
   const [show , setShow] = useState(false) 
 
-
-const handleShow = ()=>{
-  setShow(!show)
-}
+  const handleShow = ()=>{
+    setShow(!show)
+  }
 
   const refshow = useRef(null) 
 
