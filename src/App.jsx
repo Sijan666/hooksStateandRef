@@ -10,6 +10,7 @@ function App() {
     setShow(!show)
   }
 
+  // use ref
   const refshow = useRef(null) 
 
   const handleShowR =()=>{
