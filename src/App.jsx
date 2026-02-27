@@ -37,7 +37,7 @@ function App() {
         </div>
       </div>
 
-      {/* use state drop menu */}
+      {/* use ref drop down menu */}
       <div className="max-w-330 mx-auto text-center py-20">
         <button onClick={handleShowR} className="px-3 py-2 cursor-pointer">Menu</button>
         <div  className="">
